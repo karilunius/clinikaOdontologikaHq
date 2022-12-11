@@ -33,5 +33,5 @@ La base de datos incluye todas las tablas pero se trabajó sobre ODONTOLOGO para
 ## Repositorio 
 1) Para clonar repo:
 ```
-git clone https: 
+git clone https://github.com/karilunius/clinikaOdontologikaHq.git
 ```
