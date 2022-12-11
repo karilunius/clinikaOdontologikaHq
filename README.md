@@ -6,7 +6,7 @@ Tener en cuenta
 - Capa Repository.
 - Capa Service.
 - Controllers API.
-- Testeo JUnit 
+- Testeo JUnit.
 - Captura de Global Exception(Bad request - Not found)- Se uso global todos los errores.
 - Log4j
 - Invocaciones javascript con Fetch - se usó Jquery .ajax 
