@@ -1,0 +1,89 @@
+http://localhost:8080/  --ok
+http://localhost:8080/inicio  --ok
+
+
+http://localhost:8080/domicilios/nuevo --ok
+http://localhost:8080/domicilios/buscar{id}  --ok
+http://localhost:8080/domicilios/actualizar  --415 STATUS
+http://localhost:8080/domicilios/eliminar{id} --OK
+http://localhost:8080/domicilios/lista     --ok
+
+http://localhost:8080/odontologos/nuevo
+http://localhost:8080/odontologos/buscar{id}   --ok
+http://localhost:8080/odontologos/actualizar
+http://localhost:8080/odontologos/eliminar{id}
+http://localhost:8080/odontologos/lista    --ok
+
+
+http://localhost:8080/pacientes/nuevo
+http://localhost:8080/pacientes/buscar{id}  --ok
+http://localhost:8080/pacientes/actualizar
+http://localhost:8080/pacientes/eliminar{id}
+http://localhost:8080/pacientes/lista       --ok
+
+
+http://localhost:8080/turnos/nuevo
+http://localhost:8080/turnos/buscar{id}   -ok
+http://localhost:8080/turnos/actualizar
+http://localhost:8080/turnos/eliminar{id}
+http://localhost:8080/turnos/lista   --ok
+
+
+
+
+ODONTOLOGO
+{
+    "id": "1",
+    "matricula": "343667474",
+    "nombre": "Marcos",
+    "apellido": "Benavidez"
+}
+
+
+PACIENTE
+{
+        "id": 1,
+        "dni": "1130674567",
+        "nombre": "Fabian",
+        "apellido": "Lopez",
+        "email": "fabian@gmail.com",
+        "fechaIngreso": "2010-12-31",
+
+    }
+    --ver turnos
+    --accede a domicilio
+
+DOMICILIO
+{
+        "id": 1,
+        "calle": "NQS",
+        "numero": "45",
+        "localidad": "Valencia",
+        "provincia": "cañaveralejo",
+
+    }
+
+TURNOS
+
+{
+        "id": 1,
+        "fechaIngreso": "2010-12-31",
+        "horaConsulta": "03:00:00",
+
+
+    }
+--se conecta a un paciente
+--se conecta a un odontologo
+
+
+SELECT * FROM PACIENTES
+SELECT * FROM ODONTOLOGOS
+SELECT * FROM DOMICILIO
+SELECT * FROM TURNOS
+(http://localhost:8080/h2-console).
+
+
+DROP TABLE DOMICILIO
+DROP TABLE ODONTOLOGOS
+DROP TABLE PACIENTES
+DROP TABLE TURNOS

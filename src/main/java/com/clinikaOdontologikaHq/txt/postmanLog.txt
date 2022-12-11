@@ -1,0 +1,35 @@
+POST http://localhost:8080/odontologos/nuevo
+
+Network
+addresses: {…}
+local: {…}
+address: "::1"
+family: "IPv6"
+port: 50150
+remote: {…}
+address: "::1"
+family: "IPv6"
+port: 8080
+Request Headers
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.29.2
+Accept: */*
+Postman-Token: 42a56b34-335b-40b0-9ade-83bffd65bbcf
+Host: localhost:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 88
+Request Body
+{
+    "matricula": "300-444-7474",
+    "nombre": "Diana",
+    "apellido": "Prince"
+}
+Response Headers
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 8
+Date: Fri, 09 Dec 2022 23:05:52 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Response Body
+Guardado

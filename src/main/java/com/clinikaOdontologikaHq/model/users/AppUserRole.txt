@@ -1,0 +1,8 @@
+/*
+package com.clinikaOdontologikaHq.model.users;
+
+public enum AppUserRole {
+        USER,ADMIN
+
+}
+*/

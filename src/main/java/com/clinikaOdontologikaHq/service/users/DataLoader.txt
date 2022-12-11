@@ -1,0 +1,33 @@
+
+/*package com.clinikaOdontologikaHq.service.users;
+import com.clinikaOdontologikaHq.model.users.AppUser;
+import com.clinikaOdontologikaHq.model.users.AppUserRole;
+import com.clinikaOdontologikaHq.repository.iusers.IUserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Component;*/
+/*
+
+@Component
+public class DataLoader implements ApplicationRunner {
+
+    private IUserRepository userRepository;
+
+    @Autowired
+    public DataLoader(IUserRepository userRepository){
+        this.userRepository = userRepository;
+    }
+
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        String hashedPassword = passwordEncoder.encode("1200");
+        BCryptPasswordEncoder passwordEncoder2 = new BCryptPasswordEncoder();
+        String hashedPassword2 = passwordEncoder2.encode("1300");
+        userRepository.save(new AppUser("Admon", "admon_12", "admon@didital.com", hashedPassword, AppUserRole.ADMIN));
+        userRepository.save(new AppUser("User", "user_13", "user@digital.com", hashedPassword2, AppUserRole.USER));
+    }
+}
+*/
